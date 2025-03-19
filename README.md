@@ -38,6 +38,7 @@
 <hr>
 
 ## 2️⃣ 프로젝트 소개
+![Your Name](https://github.com/user-attachments/assets/6921be0b-0fb6-4592-8dd4-f8eedf11f68a)
 
 
 
