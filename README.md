@@ -26,8 +26,8 @@
       </a><br />
     </td>
     <td align="center">
-      <a href="https://github.com/minjung2266">
-        <img src="https://github.com/minjung2266.png" width="150" alt="minjung"/><br /><hr/>
+      <a href="https://github.com/hyunahn23">
+        <img src="https://github.com/hyunahn23.png" width="150" alt="jonghyun"/><br /><hr/>
         안종현
       </a><br />
     </td>
