@@ -106,49 +106,35 @@
 ## 📚분석과정
 ## 1. Data Load & Cleaning
 #### (1) 데이터 로드 및 분포 확인
-```python
-rating = pd.read_csv('./data/rating.csv')
-anime = pd.read_csv('./data/anime.csv')
-```
+![anime_frame](https://github.com/user-attachments/assets/6ce8f835-1104-47fa-a5c9-f495efcd1c2f)
+![rating_frame](https://github.com/user-attachments/assets/1e095649-bf38-449a-be41-b23f01f3db66)
 
-```python
-anime.head()
-```
-![image](https://github.com/user-attachments/assets/6ce8f835-1104-47fa-a5c9-f495efcd1c2f)
-
-```python
-rating.head()
-```
-![image](https://github.com/user-attachments/assets/1e095649-bf38-449a-be41-b23f01f3db66)
+![distribution_genre](https://github.com/user-attachments/assets/5f454961-688e-4f79-8c62-30c43279fee6)
 
 
 #### (2) 결측치 제거
-- Check & Remove Missing Value
-```python
-anime.isna().sum()
-anime.dropna(axis=0, inplace=True)
-anime.isna().sum()
-```
-- Check Duplicates
-```python
-duplicated_rating = rating[rating.duplicated()].shape[0]
-print(f'count of dupliacte anime: {duplicated_rating}')
-```
+- remove rating == -1
+![image](https://github.com/user-attachments/assets/932f4af1-27d1-4fa6-826a-bea0e42e3993)
+![image](https://github.com/user-attachments/assets/ef4c3b44-fac2-4eea-ba20-5f48bd2aaa36)
+  
 - Remove Duplicates
-```python
-rating.drop_duplicates(keep='first', inplace=True) # 첫 번쨰 등장한 값 유지
 
-duplicated_rating = rating[rating.duplicated()].shape[0]
-print(f'count of duplicated anime after removing: {duplicated_rating}')
-```
+
+
 
 ## 2. Data Preprocessing
 #### 1. 데이터 merge
-```python
-df = pd.merge(anime, rating, on='anime_id')
-df.to_csv("./data/anime_rating_merged.csv", index=False)
-```
+
+### 2. new Data Cleaning
+- 컬럼 rename, user rating이 -1인 행 제거
+
+[before cleaning]
 ![image](https://github.com/user-attachments/assets/3ae78178-be13-4d6d-85c1-2f3cf0c8296c)
+
+[after cleaning]
+![image](https://github.com/user-attachments/assets/f8371a41-d855-477e-8ac6-ee47d29e0154)
+
+### 3. new Data Cleaning
 
 
 
