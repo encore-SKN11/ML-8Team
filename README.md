@@ -150,7 +150,7 @@
 - K-means는 비지도학습에 속하는 머신러닝 알고리즘으로 데이터를 K개의 군집(Cluster)으로 묶는(Clusting) 알고리즘이다.
 - K = 6으로 설정하여 클러스터링을 수행
 - 전체 6,337,145개의 데이터를 6개의 그룹으로 군집화
-![image](https://github.com/user-attachments/assets/3b09bb5b-e093-4464-a602-8fdc8e38843f)
+![image](images/clustering.png)
 
 
 #### (3) KNN model 
@@ -159,7 +159,7 @@
 - 선정된 그룹내에서 랜덤한 유저를 추출
 - KNN의 **코사인 유사**도 활용하여 해당 유저와 근접한 애니메이션 데이터 10개를 추출
 
-![image](https://github.com/user-attachments/assets/ed3ee595-6a12-4dce-90c7-07a3e2dddfaa)
+![image](images/KNN.png)
 
 #### (4) 협업 필터링 추천 시스템의 장단점
 |장점|단점|
@@ -183,7 +183,7 @@
 - TF-IDF를 통해 수치화된 장르 정보를 코사인 유사도를 활용하여 근접한 애니메이션 10개를 추천
 
 #### (3) 추천 애니메이션 인덱스 저장 후 결과 가져오기 
-![image](https://github.com/user-attachments/assets/c7131ed2-07f5-4342-994b-feea1e9a9477)
+![image](images/TF-IDF_output.png)
 
 #### (4) 콘텐츠 기반 추천 시스템의 장단점
 |장점|단점|
@@ -196,7 +196,7 @@
 
 : SVD는 행렬을 세 개의 행렬의 곱으로 분해하는 기법으로, 추천 시스템에서 널리 사용되는 기법 중 하나이다. 기본적으로 SVD는 대규모 행렬의 차원을 줄이면서 중요한 정보만 보존하는 역할을 한다.
 
-![image](https://github.com/user-attachments/assets/f0c7a522-3e5d-47dc-9189-b87f788d2fe7)
+![image](images/SVD.png)
 
 #### (1) SVD 학습을 위한 데이터 정규화
 - Reader를 통해 평점 데이터의 읽는 방식 지정하여 평점이 1점에서 10점 사이임을 나타낸다.
@@ -205,7 +205,7 @@
 
 #### (2) SVD를 이용한 추천 시스템
 - 애니메이션에 대한 전체 데이터셋에서 사용자가 평점을 주지 않은 데이터뿐만 아니라 이외에 시청하지 않은 애니메이션 중 높은 평점을 받은 애니메이션 10개를 추출
-![image](https://github.com/user-attachments/assets/f0c7a522-3e5d-47dc-9189-b87f788d2fe7)
+![image](images/SVD_output.png)
 
 #### (3) SVD를 이용한 추천 시스템의 장단점
 |장점|단점|
@@ -221,7 +221,7 @@
 
 #### (2) Hybrid(K-Means + SVD를 이용한 추천 시스템
 - 애니메이션에 대한 전체 데이터셋이 아닌 특정 속성에 대해 그룹화된 데이터에서 사용자가 평점을 주지 않은 데이터뿐만 아니라 이외에 시청하지 않은 애니메이션 중 높은 평점을 받은 애니메이션 10개를 추출
-![image](https://github.com/user-attachments/assets/f2daf03a-d2f7-46f9-b422-927ecd0f674e)
+![image](images/hybrid_output.png)
 
 #### (3) SVD를 이용한 추천 시스템의 장단점
 |장점|단점|
