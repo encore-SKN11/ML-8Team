@@ -106,73 +106,41 @@
 #### 1. 데이터 로드 및 분포 확인
 - 라이브러리 호출 및 데이터 로드
 
-![라이브러리 호출 ](https://github.com/encore-SKN11/ML-8Team/blob/main/asset/%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC1.png)
-
-![라이브러리 호출2](https://github.com/encore-SKN11/ML-8Team/blob/main/asset/%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC2.png)
-
-![데이터로드](https://github.com/encore-SKN11/ML-8Team/blob/main/asset/data_load.png)
 
 - Data Summary
-![스크린샷 2025-03-19 205628](https://github.com/user-attachments/assets/ad3310d6-3fcc-479c-bd50-d85dd83948f2)
-![스크린샷 2025-03-19 205642](https://github.com/user-attachments/assets/4aec8044-e9fd-4adc-afeb-9766082d93d5)
-
-![스크린샷 2025-03-19 205802](https://github.com/user-attachments/assets/d22fcfd4-a3dd-499c-bc8a-a63035af5399)
-![info](https://github.com/user-attachments/assets/5f1ffe67-af0a-486d-88ee-91bb7987d791)
-
-![스크린샷 2025-03-19 205914](https://github.com/user-attachments/assets/59db429e-3daf-462c-8aa3-e0d228eea2bd)
 
 
 #### 2. NaN 값 제거 및 결측값 제거
 - Check Missing Value
-![스크린샷 2025-03-19 205418](https://github.com/user-attachments/assets/ea545619-3850-4a64-a9eb-472cc40e74b5)
+
 
 - Remove Missing Rows
-![스크린샷 2025-03-19 205449](https://github.com/user-attachments/assets/1dff67de-b9e8-4a58-aa71-fb3f6ed39585)
+
 
 - Check Duplicates
-![스크린샷 2025-03-19 210253](https://github.com/user-attachments/assets/3d8a9b95-e339-43e7-9621-dbbded64ced4)
+
 
 - Remove Duplicates
-![스크린샷 2025-03-19 210350](https://github.com/user-attachments/assets/acdb686d-5b91-4ee9-8e9f-a1e48c18f8ed)
+
 
 #### 3. 데이터 merge & rating -1값 제거 
-![스크린샷 2025-03-19 210453](https://github.com/user-attachments/assets/9cb7d4b9-a10c-4063-9eb7-f21ef97cc2d4)
-![스크린샷 2025-03-19 210555](https://github.com/user-attachments/assets/7d617a59-3530-46a7-941e-9bf6dd1ccf5c)
-![스크린샷 2025-03-19 211040](https://github.com/user-attachments/assets/ffe670ed-6ad6-43ab-9d39-52692a1770be)
-![스크린샷 2025-03-19 211116](https://github.com/user-attachments/assets/23ad0494-164d-4a78-859c-5e75063e4a1a)
-<hr>
 
 <h3>merge 데이터 전처리</h3>
 
 #### 1. 전처리 함수 생성
 
-![스크린샷 2025-03-19 211446](https://github.com/user-attachments/assets/1019d8d5-6bc9-4900-a155-ec95cd8e7f2f)
-![image](https://github.com/user-attachments/assets/17e210df-726d-4fa8-9f2a-9e020b34c6fd)
-![image](https://github.com/user-attachments/assets/b51bc43a-c491-4e95-8746-f862381b6dc7)
 
 #### 2. 전처리 프로세스 시간복잡도 계산
-![image](https://github.com/user-attachments/assets/8ec55253-e8da-4320-968f-367e928c4c83)
+
 
 <hr>
 <h3>인기 기반 애니메이션 추천</h3>
 
 - user rating 순위
-![image](https://github.com/user-attachments/assets/a9e78b95-bc1c-4add-a4ce-6768ce56348b)
-![image](https://github.com/user-attachments/assets/4796b62c-707f-42fc-a42f-b2f75539cdbc)
-
-![image](https://github.com/user-attachments/assets/5cb98be6-45d8-440f-ac75-293f7bcda3c4)
-![image](https://github.com/user-attachments/assets/d3b9ea88-802b-4c49-bb89-680c2a8be6ee)
 
 - anime rating 순위
-![image](https://github.com/user-attachments/assets/6d61fcbb-2403-475e-ae6d-b8e7e9ab36f1)
-![image](https://github.com/user-attachments/assets/fea261f5-9d76-4d18-b9ae-058123a33921)
-![image](https://github.com/user-attachments/assets/6de0434b-d42e-4679-a951-6335ddf079bb)
 
 - first genre 생성
-![image](https://github.com/user-attachments/assets/9b90b24b-f4ba-4cfe-9742-e9a2f8a361f8)
-![image](https://github.com/user-attachments/assets/8dbf4d16-e4c0-4bbc-b387-705e6ebd2f84)
-![image](https://github.com/user-attachments/assets/fda6abab-0ead-4439-ab6c-dd792538f303)
-![image](https://github.com/user-attachments/assets/fd9427b9-f1d3-4f9b-a3bb-4ac0c89ea936)
 
 ## ⭐ 한 줄 회고
 🧑🏻 형주
