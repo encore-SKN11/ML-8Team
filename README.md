@@ -1,4 +1,4 @@
-# 📺 애니메이션 평가 데이터를 활용한 평점 예측 및 추천 서비스
+![image](https://github.com/user-attachments/assets/b5be12fc-1012-4e36-8d3a-1dcd26fa7db6)# 📺 애니메이션 평가 데이터를 활용한 평점 예측 및 추천 서비스
 
 ## 👤 팀 소개
 #### SKN Family AI 캠프 11기  ML 미니 프로젝트 <br/>
@@ -98,42 +98,63 @@
 2. 고객별 애니메이션 시청 경향
 
 3. ...
+
 4. 
-<hr>
+
+-------
 
 ## 📚분석과정
-<h3>데이터 탐색 후 Merge</h3>
-#### 1. 데이터 로드 및 분포 확인
-- 라이브러리 호출 및 데이터 로드
+## 1. Data Load & Cleaning
+#### (1) 데이터 로드 및 분포 확인
+```python
+rating = pd.read_csv('./data/rating.csv')
+anime = pd.read_csv('./data/anime.csv')
+```
+
+```python
+anime.head()
+```
+![image](https://github.com/user-attachments/assets/6ce8f835-1104-47fa-a5c9-f495efcd1c2f)
+
+```python
+rating.head()
+```
+![image](https://github.com/user-attachments/assets/1e095649-bf38-449a-be41-b23f01f3db66)
 
 
-- Data Summary
-
-
-#### 2. NaN 값 제거 및 결측값 제거
-- Check Missing Value
-
-
-- Remove Missing Rows
-
-
+#### (2) 결측치 제거
+- Check & Remove Missing Value
+```python
+anime.isna().sum()
+anime.dropna(axis=0, inplace=True)
+anime.isna().sum()
+```
 - Check Duplicates
-
-
+```python
+duplicated_rating = rating[rating.duplicated()].shape[0]
+print(f'count of dupliacte anime: {duplicated_rating}')
+```
 - Remove Duplicates
+```python
+rating.drop_duplicates(keep='first', inplace=True) # 첫 번쨰 등장한 값 유지
 
+duplicated_rating = rating[rating.duplicated()].shape[0]
+print(f'count of duplicated anime after removing: {duplicated_rating}')
+```
 
-#### 3. 데이터 merge & rating -1값 제거 
+## 2. Data Preprocessing
+#### 1. 데이터 merge
+```python
+df = pd.merge(anime, rating, on='anime_id')
+df.to_csv("./data/anime_rating_merged.csv", index=False)
+```
+![image](https://github.com/user-attachments/assets/3ae78178-be13-4d6d-85c1-2f3cf0c8296c)
 
-<h3>merge 데이터 전처리</h3>
-
-#### 1. 전처리 함수 생성
-
-
-#### 2. 전처리 프로세스 시간복잡도 계산
 
 
 <hr>
+
+## 3. 모델 학습 및 평가 
 <h3>인기 기반 애니메이션 추천</h3>
 
 - user rating 순위
