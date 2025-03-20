@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b5be12fc-1012-4e36-8d3a-1dcd26fa7db6)# 📺 애니메이션 평가 데이터를 활용한 평점 예측 및 추천 서비스
+# 📺 애니메이션 평가 데이터를 활용한 평점 예측 및 추천 서비스
 
 ## 👤 팀 소개
 #### SKN Family AI 캠프 11기  ML 미니 프로젝트 <br/>
