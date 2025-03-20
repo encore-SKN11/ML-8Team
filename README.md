@@ -95,6 +95,7 @@
 ## 📚분석과정
 ## 1. Data Cleaning
 - 누락 데이터 및 중복데이터 삭제
+
 ![aninme missing data](https://github.com/user-attachments/assets/b5489a8b-f9c3-4fd8-802c-409d548863f8)
 ![rating data count](https://github.com/user-attachments/assets/744d6281-ea7c-4e6f-8273-69cbfb207f40)
 ![duplicate](https://github.com/user-attachments/assets/359cf71c-7bdc-4f29-8853-f4507a3d2d49)
