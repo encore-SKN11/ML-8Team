@@ -138,18 +138,33 @@
 
 ![image](https://github.com/user-attachments/assets/a6072f75-e0c5-4b37-acfc-bf0d3745ae47)
 
-
----
-
-## 3. 인기 기반 추천 모델 생성 
-
 - anime rating 별 순위
 ![image](https://github.com/user-attachments/assets/f1d0474c-35b9-4a2a-939c-cabf8c0bb400)
 
 - user rating 별 애니메이션 순위
 ?? 다시..
 
-  
+---
+
+## 3. 인기 기반 추천 모델 생성 
+[ 사용자 또는 아이템 간의 유사성을 바탕으로 추천하는 방식]
+
+#### (1) label encoding 
+- 범주형 데이터를 숫자로 변환
+![image](https://github.com/user-attachments/assets/048917ce-90ad-4823-a2cd-1a94fa6a6c0d)
+
+
+#### (2) K-means model 
+- 군집 설정 (n_cluster = 6, random_state = 42)
+![image](https://github.com/user-attachments/assets/3b09bb5b-e093-4464-a602-8fdc8e38843f)
+![image](https://github.com/user-attachments/assets/93355d90-41f9-4db9-92de-ccfbda180370)
+
+#### (3) KNN model 
+- 랜덤한 사용자가 속한 데이터로 유사도 측정 후 추천 결과를 반환 
+![image](https://github.com/user-attachments/assets/ed3ee595-6a12-4dce-90c7-07a3e2dddfaa)
+
+[ 애니메이션 시청자가 선호하는 콘텐츠의 특징을 분석하여 유사한 아이템을 추천하는 방식] 
+![image](https://github.com/user-attachments/assets/20b923e5-15f7-4720-9aec-4d5a7e86d7db)
 
 <hr>
 
