@@ -109,24 +109,17 @@
 ![anime_frame](https://github.com/user-attachments/assets/6ce8f835-1104-47fa-a5c9-f495efcd1c2f)
 ![rating_frame](https://github.com/user-attachments/assets/1e095649-bf38-449a-be41-b23f01f3db66)
 
-![distribution_genre](https://github.com/user-attachments/assets/5f454961-688e-4f79-8c62-30c43279fee6)
-
 
 #### (2) 결측치 제거
-- remove rating == -1
-![image](https://github.com/user-attachments/assets/932f4af1-27d1-4fa6-826a-bea0e42e3993)
-![image](https://github.com/user-attachments/assets/ef4c3b44-fac2-4eea-ba20-5f48bd2aaa36)
-  
-- Remove Duplicates
+![aninme missing data](https://github.com/user-attachments/assets/b5489a8b-f9c3-4fd8-802c-409d548863f8)
+![rating data count](https://github.com/user-attachments/assets/744d6281-ea7c-4e6f-8273-69cbfb207f40)
+![duplicate](https://github.com/user-attachments/assets/359cf71c-7bdc-4f29-8853-f4507a3d2d49)
 
-
-
+----
 
 ## 2. Data Preprocessing
-#### 1. 데이터 merge
-
-### 2. new Data Cleaning
-- 컬럼 rename, user rating이 -1인 행 제거
+#### (1) 데이터 merge & new Data Cleaning
+- 데이터 merge & 컬럼 rename
 
 [before cleaning]
 ![image](https://github.com/user-attachments/assets/3ae78178-be13-4d6d-85c1-2f3cf0c8296c)
@@ -134,9 +127,29 @@
 [after cleaning]
 ![image](https://github.com/user-attachments/assets/f8371a41-d855-477e-8ac6-ee47d29e0154)
 
-### 3. new Data Cleaning
+- remove rating == -1
+![image](https://github.com/user-attachments/assets/a5bcb586-52cb-4118-933b-9f0418e44244)
+![image](https://github.com/user-attachments/assets/743c2b2d-6e64-4645-89c1-e07d2ce59f14)
 
 
+
+#### (2) 텍스트 정규화 (불용어 처리) 
+![image](https://github.com/user-attachments/assets/12ab0cce-96f9-4e3f-9825-03ca630db19d)
+
+![image](https://github.com/user-attachments/assets/a6072f75-e0c5-4b37-acfc-bf0d3745ae47)
+
+
+---
+
+## 3. 인기 기반 추천 모델 생성 
+
+- anime rating 별 순위
+![image](https://github.com/user-attachments/assets/f1d0474c-35b9-4a2a-939c-cabf8c0bb400)
+
+- user rating 별 애니메이션 순위
+?? 다시..
+
+  
 
 <hr>
 
@@ -148,6 +161,17 @@
 - anime rating 순위
 
 - first genre 생성
+
+
+## 🕶️ 시각화
+![image](https://github.com/user-attachments/assets/e1a77f69-ea25-4d9a-b6b6-efca9de19753)
+
+![image](https://github.com/user-attachments/assets/552340b2-1282-48a7-ac31-eeea50903681)
+
+![image](https://github.com/user-attachments/assets/fa032156-73b1-49d5-b9ed-43211a9f97b4)
+
+![image](https://github.com/user-attachments/assets/e203bd54-1b57-4523-9b0c-7f5024f84e74)
+
 
 ## ⭐ 한 줄 회고
 🧑🏻 형주
