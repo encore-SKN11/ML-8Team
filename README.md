@@ -265,6 +265,6 @@
 
 코코로오모야스!!! 켄카이오코에로!!!! 오래와 엠바시라!!!! 렌고쿠 안종현!!!!!
 
-![images](images/images.png)
+![images](images/images.jpg)
 
 
