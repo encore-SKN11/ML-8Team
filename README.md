@@ -163,6 +163,7 @@
 - K = 6으로 설정하여 클러스터링을 수행
 - 전체 6,337,145개의 데이터를 6개의 그룹으로 군집화<br>
 ![image](images/clustering.png)
+![image](images/PCA_cluster.png)
 
 
 #### (3) KNN model 
