@@ -68,7 +68,7 @@
   <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white"> 
   <img src= "https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white">
   <img src= "https://img.shields.io/badge/surprise-%23013243.svg?style=for-the-badge&logo=surprise&logoColor=blue">
-  <img src= "https://img.shields.io/badge/scikit-learn-%3178C6.svg?style=for-the-badge&logo=surprise&logoColor=blue">
+  <img src= "https://img.shields.io/badge/scikitlearn-%3178C6.svg?style=for-the-badge&logo=surprise&logoColor=blue">
   <img src= "https://img.shields.io/badge/nltk-%23013243.svg?style=for-the-badge&logo=surprise&logoColor=blue">
   <img src= "https://img.shields.io/badge/request-%23013243.svg?style=for-the-badge&logo=surprise&logoColor=blue">
 </p>
@@ -146,6 +146,7 @@
 
 #### (1) 특정 속성 선택
 - 전체 10개 속성 중 유의미한 속성인 genre, type 속성을 레이블 인코더를 통해 수치화
+- 클러스터링을 수행할 때 사용할 특징 속성을 제외한 나머지 속성은 제거
 <details>
   <summary>One-Hot-Encoder 말고 레이블 인코더를 사용한 이유</summary>
   <ul>
@@ -154,7 +155,7 @@
   </ul>
 </details>
 
-- 클러스터링을 수행할 때 사용할 특징 속성을 제외한 나머지 속성은 제거
+
 
 
 #### (2) K-means model 
