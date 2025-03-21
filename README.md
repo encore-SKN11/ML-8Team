@@ -131,7 +131,7 @@
 
 : k-means를 활용하여 **특정 속성간 유사한 그룹으로 묶고** 그룹화된 데이터에서 특정 유저를 뽑아 **KNN의 코사인 유사도를 활용**하여 특정 유저 데이터와 근접한 애니메이션 추천
 
-![image](https://github.com/user-attachments/assets/f4b77413-9650-45c5-8c03-aa17144d4ab3)
+![image](https://github.com/user-attachments/assets/eac9313d-0e9a-4e30-8810-9b1320d9201f)
 
 #### (1) 특정 속성 선택
 - 전체 10개 속성 중 유의미한 속성인 genre, type 속성을 레이블 인코더를 통해 수치화
@@ -158,6 +158,7 @@
 - 6개의 그룹화된 데이터에서 랜덤으로 하나의 그룹을 선정
 - 선정된 그룹내에서 랜덤한 유저를 추출
 - KNN의 **코사인 유사**도 활용하여 해당 유저와 근접한 애니메이션 데이터 10개를 추출
+- 즉, 특정 유저가 시청한 애니메이션 중 이와 근접한 애니메이션 10개를 추천
 
 ![image](images/KNN.png)
 
@@ -171,7 +172,7 @@
 
 : 해당 시스템은 유저가 아닌 특정 애니를 기준으로 장르 데이터를 수치화하고 코사인 유사도를 통해 가장 유사한 애니를 추출
 
-![image](https://github.com/user-attachments/assets/eac9313d-0e9a-4e30-8810-9b1320d9201f)
+![image](https://github.com/user-attachments/assets/f4b77413-9650-45c5-8c03-aa17144d4ab3)
 
 #### (1) TF-IDF 및 장르 간 코사인 유사도 행렬 계산
 - TF-IDF는 문서의 집합에서 한 단어가 얼마나 중요한지를 수치적으로 나타낸 기법이다.
