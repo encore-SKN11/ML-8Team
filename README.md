@@ -252,7 +252,7 @@
 ![images](images/niconiconi.jpg)
 
 🧑🏻‍🦱 근
-오레와 이근! aka.유병재! 나는 유병재랑 똑같이 생겼지 !!!
+
 후멘가 칸세시타!!!!!!! 카츠니 이크조!!!!!
 
 ![images](images/demon.png)
