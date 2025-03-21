@@ -125,6 +125,17 @@
 
 ---
 
+## 🕶️ Appendix
+![image](https://github.com/user-attachments/assets/e1a77f69-ea25-4d9a-b6b6-efca9de19753)
+
+![image](https://github.com/user-attachments/assets/552340b2-1282-48a7-ac31-eeea50903681)
+
+![image](https://github.com/user-attachments/assets/fa032156-73b1-49d5-b9ed-43211a9f97b4)
+
+![image](https://github.com/user-attachments/assets/e203bd54-1b57-4523-9b0c-7f5024f84e74)
+
+---
+
 ## 3. 인기 기반 추천 모델 생성 
 
 ### [협업 필터링 추천 시스템]
@@ -230,16 +241,6 @@
 |그룹화된 데이터 내에서 유저에 대한 세세한 정보를 통해 유저가 보지 않은 애니메이션 추천 가능|그룹화된 데이터 내에서만 추출하다보니 새로운 장르 또는 유저가 보고싶은 다른 타입의 애니메이션은 추천 불가능|
 
 ---
-
-## 🕶️ Appendix
-![image](https://github.com/user-attachments/assets/e1a77f69-ea25-4d9a-b6b6-efca9de19753)
-
-![image](https://github.com/user-attachments/assets/552340b2-1282-48a7-ac31-eeea50903681)
-
-![image](https://github.com/user-attachments/assets/fa032156-73b1-49d5-b9ed-43211a9f97b4)
-
-![image](https://github.com/user-attachments/assets/e203bd54-1b57-4523-9b0c-7f5024f84e74)
-
 
 ## ⭐ 한 줄 회고
 🧑🏻 형주
